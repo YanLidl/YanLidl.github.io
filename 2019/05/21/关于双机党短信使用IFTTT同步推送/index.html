@@ -103,7 +103,7 @@
 <meta property="og:site_name" content="YanLidl">
 <meta property="og:description" content="在学校里很多是要带两部手机，其中一部是学校里发的手机。学校里发的手机用到的地方不多，但总是在关键的时候要用到。而且不能老是口袋里放着两部手机。像我这种主力手机是Iphone的人备用机是Android机。暂时没有能力去换双卡版Iphone的人，就可以去尝试使用IFTTT这软件了。由于iOS系统没有提供相关的API，第三方应用也没有读取短信的权限，因而只能从Android手机接收短信而后推送至iOS/">
 <meta property="og:locale" content="CN">
-<meta property="og:updated_time" content="2019-05-21T16:51:31.556Z">
+<meta property="og:updated_time" content="2019-05-22T00:35:46.265Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于双机党短信使用IFTTT同步推送">
 <meta name="twitter:description" content="在学校里很多是要带两部手机，其中一部是学校里发的手机。学校里发的手机用到的地方不多，但总是在关键的时候要用到。而且不能老是口袋里放着两部手机。像我这种主力手机是Iphone的人备用机是Android机。暂时没有能力去换双卡版Iphone的人，就可以去尝试使用IFTTT这软件了。由于iOS系统没有提供相关的API，第三方应用也没有读取短信的权限，因而只能从Android手机接收短信而后推送至iOS/">
@@ -196,7 +196,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -224,7 +224,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home //首页"></i> <br>Startseite</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home //首页"></i> <br>Home</a>
 
   </li>
         
@@ -241,7 +241,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive //归档"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive //归档"></i> <br>Archives</a>
 
   </li>
 
@@ -329,14 +329,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
 
               
                 
               
 
-              <time title="Erstellt: 2019-05-21 23:40:00" itemprop="dateCreated datePublished" datetime="2019-05-21T23:40:00+08:00">2019-05-21</time>
+              <time title="Created: 2019-05-21 23:40:00" itemprop="dateCreated datePublished" datetime="2019-05-21T23:40:00+08:00">2019-05-21</time>
             
 
             
@@ -351,9 +351,9 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">Bearbeitet am</span>
+                  <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Geändert am: 2019-05-22 00:51:31" itemprop="dateModified" datetime="2019-05-22T00:51:31+08:00">2019-05-22</time>
+                <time title="Modified: 2019-05-22 08:35:46" itemprop="dateModified" datetime="2019-05-22T08:35:46+08:00">2019-05-22</time>
               
             
           </span>
@@ -388,10 +388,15 @@
 
       
         <p>在学校里很多是要带两部手机，其中一部是学校里发的手机。学校里发的手机用到的地方不多，但总是在关键的时候要用到。而且不能老是口袋里放着两部手机。像我这种主力手机是Iphone的人备用机是Android机。暂时没有能力去换双卡版Iphone的人，就可以去尝试使用IFTTT这软件了。由于iOS系统没有提供相关的API，第三方应用也没有读取短信的权限，因而只能从Android手机接收短信而后推送至iOS/Android手机。</p>
+<h2 id="关于IFTTT"><a href="#关于IFTTT" class="headerlink" title="关于IFTTT"></a>关于IFTTT</h2><p>简单来说，IFTTT 就是”if This Then That”的缩写，听起来很容易让人想到程序的”if-else”结构，而实际上也的确可以这么理解。在”if-else”结构中，当特定条件得到满足，if语句将会得到执行，反之执行else语句。同样，当特定的网络行为发生时，IFTTT将会执行用户预设的一系列动作，与iOS的捷径不同，IFTTT是跨平台且几乎全部自动化的，在设置完成后无需用户做任何操作。IFTTT将这一系列动作称为Applet。每个Applet由3个部分组成，Trigger，Action和Service。</p>
+<p>Trigger就是特定的网络行为(This)，比如“某人发了条微博”，“天气预报明天会下雨”甚至是“备用机收到了一条短信”诸如此类的事件。一旦TRigger被触发，该applet就会被执行。</p>
+<p>Action也是一个动作(That)，比如”存至印象笔记“，”发送添加衣物的提醒“，”转发至主力机“等等。它由特定的Trigger触发，在applet规定的工作流中被顺序执行。</p>
+<p>Service即服务商，IFTTT要实现这些Applet，将不相关的服务连接起来，少不了服务商的支持。与IFTTT合作的服务商很多，比如上文提到的OneDrive，DropBox，Google，yeelight等等。</p>
 <h2 id="需要准备的东西"><a href="#需要准备的东西" class="headerlink" title="需要准备的东西"></a>需要准备的东西</h2><figure class="highlight bash"><figcaption><span>需要准备的东西</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Iphone一部</span><br><span class="line">安卓手机一部</span><br><span class="line">科学上网工具</span><br></pre></td></tr></table></figure>
 <h2 id="第一步："><a href="#第一步：" class="headerlink" title="第一步："></a>第一步：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在安卓手机上安装IFTTT这个App(建议在谷歌商店上下载这个软件，没能力上谷歌可以去酷安上下载)</span><br></pre></td></tr></table></figure>
 <figure class="highlight bash"><figcaption><span>首先要让ITFTTT获得Android的读取短信的权限再开始配置IFTTT</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>[打开ITFTTT的图片是这样子的] (<a href="https://wx1.sinaimg.cn/mw690/c62ad112ly1g39eucb2h5j20u01hcdvg.jpg" target="_blank" rel="noopener">https://wx1.sinaimg.cn/mw690/c62ad112ly1g39eucb2h5j20u01hcdvg.jpg</a>)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">接下来首先配置Trigger</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://wx1.sinaimg.cn/mw690/c62ad112ly1g39eucb2h5j20u01hcdvg.jpg" target="_blank" rel="noopener">打开ITFTTT的图片是这样子的</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">接下来首先配置Trigger</span><br></pre></td></tr></table></figure>
 <p><a href="https://wx3.sinaimg.cn/mw690/c62ad112ly1g39euch30rj20u01hcwm6.jpg" target="_blank" rel="noopener">选择My Applets点击上面的“+”号</a></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">即为触发条件，选择所以“this”</span><br></pre></td></tr></table></figure>
 <p><a href="https://wx2.sinaimg.cn/mw690/c62ad112ly1g39euc84uaj20u01hcwii.jpg" target="_blank" rel="noopener">Trigger即为触发条件，选择所以“this”</a></p>
@@ -479,10 +484,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -503,7 +508,7 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">Artikel</span>
+                    <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
@@ -544,7 +549,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#需要准备的东西"><span class="nav-number">1.</span> <span class="nav-text">需要准备的东西</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步："><span class="nav-number">2.</span> <span class="nav-text">第一步：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于IFTTT"><span class="nav-number">1.</span> <span class="nav-text">关于IFTTT</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要准备的东西"><span class="nav-number">2.</span> <span class="nav-text">需要准备的东西</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一步："><span class="nav-number">3.</span> <span class="nav-text">第一步：</span></a></li></ol></div>
             
 
           </div>
@@ -577,7 +582,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
 
 
 
@@ -585,7 +590,7 @@
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.1.1</div>
 
 
 
